@@ -49,8 +49,6 @@ dist/
 *.orig.*
 
 # Environment variables
-.env
-.env.*
 !.env.example
 
 # TypeScript
@@ -60,7 +58,6 @@ dist/
 coverage/
 
 # Visual Studio Code
-.vscode/
 *.code-workspace
 
 # Temporary files
@@ -148,3 +145,4 @@ android/app/release/
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+config.bat
